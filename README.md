@@ -23,3 +23,9 @@ vado la vida"
 -->
 "este script me ha 
 salvado la vida"
+
+# How to use
+Put the docs you want to dehyphenate in input_docs dir, then run the script
+```
+python3 cr_dehyphenator_es-ES.py
+```
