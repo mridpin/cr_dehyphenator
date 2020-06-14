@@ -1,3 +1,9 @@
+# How to use
+Put the docs you want to dehyphenate in input_docs dir, then run the script. Output will be in output_docs
+```
+python3 cr_dehyphenator_es-ES.py
+```
+
 # DEHYPHENATOR
 This script removes hyphens that split words at the end of the lines. Usually words are split like this to keep the text aligned to the right margin, instead of using the word processor "justify" alignment. When doing NLP work on a text, these types of splits incorporate noise to the file, so we are attempting to remove them.
 
@@ -23,9 +29,3 @@ vado la vida"
 -->
 "este script me ha 
 salvado la vida"
-
-# How to use
-Put the docs you want to dehyphenate in input_docs dir, then run the script
-```
-python3 cr_dehyphenator_es-ES.py
-```
