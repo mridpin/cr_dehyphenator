@@ -10,8 +10,10 @@ This script removes hyphens that split words at the end of the lines. Usually wo
 ## Rules
 1. Last char of the stripped line must be a hyphen "-".
 2. Character previous to the hyphen must be alphabetic
-3. (WIP) First character of the next line must be alphabetic
-4- (WIP) First character of the next line must be non-capitalized, unless the entire word is. This is to prevent dehyphenating hyphenated proper nouns.
+3. First character of the next line must be alphabetic
+
+### Future improvements
+1. Prevent dehyphenating hyphenated proper nouns.
 
 
 # DESGUIONADOR
@@ -20,8 +22,7 @@ Este script quita el guion que separa las palabras al final de la línea. Normal
 ## Reglas
 1. El último char de la línea debe ser un guion '-'
 2. El char delante del guión debe ser alfabético
-3. (WIP) El primer char de la línea deber ser alfabético
-4- (WIP) El primer char de la línea siguiente debe ser minúscula excepto si toda la línea es mayúscula. Esto es para prevenir la desguionación de nombres propios
+3. El primer char de la línea deber ser alfabético
 
 ### Example / Ejemplo
 "este script me ha sal-
