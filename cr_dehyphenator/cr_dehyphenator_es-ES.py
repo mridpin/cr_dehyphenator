@@ -10,7 +10,7 @@
 # ----------------------------------------------------------------------------
 # "CR_DEHYPHENATOR" (Revision 1.0):
 # mridpin wrote this file. You can do whatever you want with this stuff. Including but not limited to:
-# writing a GATE plugin, using it as NLP preprocessing, printing it and shoving it up your rectum, etc
+# writing a GATE plugin, using it as NLP preprocessing, etc
 # ----------------------------------------------------------------------------
 
 import os
